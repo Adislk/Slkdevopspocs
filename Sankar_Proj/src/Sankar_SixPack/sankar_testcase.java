@@ -9,7 +9,7 @@ public class sankar_testcase {
 	@Test
 	public void testConcatinate() {
 		Sankar_class test = new Sankar_class();
-				String result = test.concatenate ("333","efg");
+				String result = test.concatenate ("4444","efg");
 		assertEquals ("abcefg",result);
 		System.out.println(result);
 			}
