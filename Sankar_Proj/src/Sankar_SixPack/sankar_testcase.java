@@ -9,11 +9,12 @@ public class sankar_testcase {
 	@Test
 	public void testConcatinate() {
 		Sankar_class test = new Sankar_class();
-				String result = test.concatenate ("5","0");
+				String result = test.concatenate ("aaaaa","efg");
+		assertEquals ("aaaaaefg",result);
 		
-		assertEquals("Result", 0, result.concatenate("5", "0"));
 
 		System.out.println(result);
 			}
 
 }
+
